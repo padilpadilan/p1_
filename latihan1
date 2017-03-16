@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+    char nama[10];
+    int nim;
+
+    cout << "nama : ";
+    cin >> nama;//mebaca inputan dari keyboard
+
+    cout << "nim :";
+    cin>>nim;
+    system("cls");
+
+
+    cout<<"nama : "<<nama<<endl;
+    cout<<"nim : "<<nim<<endl;
+
+    //cout << "\nSelamat datang " << nama << " dimata kuliah AP1." << endl;
+    return 0;
+}
+
